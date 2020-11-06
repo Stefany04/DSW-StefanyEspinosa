@@ -1,0 +1,115 @@
+h2{
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.menu > li{
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: rgb(154, 209, 241);
+    transition: all .3s;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.nav{
+    width: 1000px;
+    margin: 30px auto;
+    background: #F0B429;
+}
+.nav ul{
+    list-style: none;
+}
+
+.submenu{
+    position: absolute;
+    background: black;
+    width: 280px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.pag{
+    width: 1000px;
+    margin: 30px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.pagina{
+    width: 1000px;
+    margin: 30px auto;
+    font-style: unset;
+    font-size: 18px;
+
+}
+    
+.footer{
+    max-width: 1000px;
+    background: #F0B429;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color:black;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.autor{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #005883;
+    
+}
