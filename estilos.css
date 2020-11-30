@@ -113,3 +113,14 @@ body{
     color: #005883;
     
 }
+
+.iframe{
+
+        width: 80%;
+    height: 150vh;
+}
+
+.autor a:hover{
+    color: rgb(154, 209, 241);
+    transition: all .3s;
+}
